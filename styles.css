@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Facebook's font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5; /* Facebook's background color */
+    color: #1c1e21; /* Facebook's text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4267b2; /* Facebook's header color */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #4267b2; /* Facebook's primary color */
+    background-color: #fff; /* White background color */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center; /* Center-align the text */
+}
+
+section {
+    background-color: #fff; /* White background color for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #4267b2; /* Facebook's primary color */
+}
+
+footer {
+    background-color: #4267b2; /* Facebook's footer color */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.pdf-container {
+    margin-bottom: 20px;
+}
+
+iframe {
+    border: 1px solid #ccc; /* Lighter grey border for iframes */
+    width: 100%;
+    height: 400px;
+}
+
+.narrative-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+/* Style for PDF containers */
+.pdf-container {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add a border for separation */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow content for a clean look */
+}
+
+/* Style for PDF thumbnails */
+.pdf-thumbnail {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.pdf-thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Style for PDF descriptions */
+.pdf-description {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4; /* Light background color for description */
+}
